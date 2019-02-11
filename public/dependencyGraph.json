@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1549373664177,
+  "timestamp": 1549894096431,
   "graph": {
     "options": {
       "directed": true,
@@ -11,11 +11,77 @@
       {
         "v": "01-atoms/buttons/buttons.mustache",
         "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-enseignant-enseignant/02-molecules-enseignant-enseignant.rendered.html",
+          "lineagePattern": "molecules-enseignant"
+        }
+      },
+      {
+        "v": "01-atoms/buttons/buttons~beige.json",
+        "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "01-atoms/buttons/buttons~alternative.json",
+        "v": "01-atoms/buttons/buttons~ok.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/divider/divider.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/divider/divider~vertical.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/font/font.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-enseignant-enseignant/02-molecules-enseignant-enseignant.rendered.html",
+          "lineagePattern": "molecules-enseignant"
+        }
+      },
+      {
+        "v": "01-atoms/font/font~h2.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/font/font~h3.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/font/font~img.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/fontb/fonth3.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-enseignant-enseignant/02-molecules-enseignant-enseignant.rendered.html",
+          "lineagePattern": "molecules-enseignant"
+        }
+      },
+      {
+        "v": "01-atoms/image/image.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-molecules/enseignant/enseignant.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -35,7 +101,47 @@
     ],
     "edges": [
       {
-        "v": "01-atoms/buttons/buttons~alternative.json",
+        "v": "01-atoms/buttons/buttons~beige.json",
+        "w": "01-atoms/buttons/buttons.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/buttons/buttons~ok.json",
+        "w": "01-atoms/buttons/buttons.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/divider/divider~vertical.json",
+        "w": "01-atoms/divider/divider.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/font/font~h2.json",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/font/font~h3.json",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-atoms/font/font~img.json",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/enseignant/enseignant.mustache",
+        "w": "01-atoms/fontb/fonth3.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/enseignant/enseignant.mustache",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/enseignant/enseignant.mustache",
         "w": "01-atoms/buttons/buttons.mustache",
         "value": {}
       }
