@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1549894096431,
+  "timestamp": 1549901418137,
   "graph": {
     "options": {
       "directed": true,
@@ -49,6 +49,12 @@
         }
       },
       {
+        "v": "01-atoms/font/font~h1.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "01-atoms/font/font~h2.json",
         "value": {
           "compileState": "clean"
@@ -67,11 +73,9 @@
         }
       },
       {
-        "v": "01-atoms/fontb/fonth3.mustache",
+        "v": "01-atoms/fontb/fontb.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-molecules-enseignant-enseignant/02-molecules-enseignant-enseignant.rendered.html",
-          "lineagePattern": "molecules-enseignant"
+          "compileState": "clean"
         }
       },
       {
@@ -116,6 +120,11 @@
         "value": {}
       },
       {
+        "v": "01-atoms/font/font~h1.json",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
         "v": "01-atoms/font/font~h2.json",
         "w": "01-atoms/font/font.mustache",
         "value": {}
@@ -128,11 +137,6 @@
       {
         "v": "01-atoms/font/font~img.json",
         "w": "01-atoms/font/font.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-molecules/enseignant/enseignant.mustache",
-        "w": "01-atoms/fontb/fonth3.mustache",
         "value": {}
       },
       {
