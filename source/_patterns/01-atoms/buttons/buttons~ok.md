@@ -1,0 +1,1 @@
+CTA « OK » : CTA (Call To Action) pour valider une action. Par exemple valider son adresse mail pour recevoir la newsletter. Ce bouton peut être transformé : si un jour on a besoin d’un bouton « GO » il prendra la même forme que CTA « OK ».

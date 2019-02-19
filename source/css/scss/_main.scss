@@ -1,3 +1,6 @@
+$primary-color: #fb905a;
+$secondary-color: #fefaf1;
+
 body {
   font-family: "Montserrat", Arial, sans-serif;
 }
@@ -5,7 +8,7 @@ body {
 .main-button {
   padding: 10px 20px 10px 20px;
   color: white;
-  background-color: #fb905a;
+  background-color: $primary-color;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 1px;
@@ -15,7 +18,7 @@ body {
   margin-top: 40px;
   padding: 15px;
   color: white;
-  background-color: #fb905a;
+  background-color: $primary-color;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 1px;
@@ -23,7 +26,7 @@ body {
 
 .beige-button {
   padding: 10px 20px 10px 20px;
-  background-color: #fefaf1;
+  background-color: $secondary-color;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 1px;
@@ -32,24 +35,31 @@ body {
 .divider-v {
   height: 100px;
   width: 1px;
-  border: 1px solid #fb905a;
+  border: 1px solid $primary-color;
 }
 
 .divider-h {
   height: 1px;
   width: 50px;
-  border: 1px solid #fb905a;
+  border: 1px solid $primary-color;
 }
 
 p {
   font-size: 1em;
+  font-weight: 100;
+  line-height: 1.2em;
+}
+
+p.center {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: lighter;
   text-transform: uppercase;
-  color: #fb905a;
+  color: $primary-color;
 }
 
 h2.titre-section {
@@ -62,15 +72,16 @@ h2.titre-section::after {
   content: "";
   height: 1px;
   width: 100px;
-  border: 1px solid #fb905a;
+  border: 1px solid $primary-color;
   display: block;
   margin-top: 20px;
 }
 
 h3 {
-  font-size: 1, 5em;
-  font-weight: lighter;
-  text-transform: uppercase;
+  font-size: 1.3em;
+  color: $primary-color;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .img-title {
@@ -83,14 +94,14 @@ h3 {
 }
 
 .bloc-cta {
-  background-color: #fefaf1;
-  border: 1px solid #fb905a;
+  background-color: $secondary-color;
+  border: 1px solid $primary-color;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  max-width: 400px;
+  max-width: 500px;
   min-height: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -98,5 +109,115 @@ h3 {
 
 img {
   max-width: 300px;
-  border: 1px solid #fb905a;
+  border: 1px solid $primary-color;
+}
+
+div.primarycolor {
+  height: 100px;
+  max-width: 300px;
+  vertical-align: center;
+  text-align: center;
+  width: auto;
+  background-color: $primary-color;
+}
+
+div.secondarycolor {
+  height: 100px;
+  max-width: 300px;
+  vertical-align: center;
+  text-align: center;
+  width: auto;
+  background-color: $secondary-color;
+}
+
+.journaliste {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  background-color: $secondary-color;
+}
+
+.vendeur {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+  background-color: $secondary-color;
+}
+
+.vendeur > img {
+  max-height: 150px;
+}
+
+.vendeur > p {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.inner-bloc {
+  display: flex;
+  max-width: 300px;
+}
+
+.inner-bloc > p {
+  padding: 10px;
+  text-align: left;
+}
+
+.historien {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  background-color: $secondary-color;
+}
+
+.historien > p {
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.historien img {
+  max-width: 450px;
+}
+
+.presentateur {
+  position: relative;
+}
+
+.presentateur h3 {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -16px;
+  left: 2px;
+  color: white;
+  background-color: #19191980;
+  padding: 22px;
+}
+
+.devanture {
+  position: relative;
+  min-height: 65vh;
+  background-image: url("../../../images/jack.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.devanture h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+  background-color: #19191990;
+}
+
+.devanture p {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: white;
+  background-color: #19191990;
 }

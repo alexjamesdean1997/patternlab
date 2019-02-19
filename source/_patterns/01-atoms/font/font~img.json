@@ -1,5 +1,5 @@
 {
   "tag": "p",
-  "divider-class": "img-title",
+  "class": "img-title",
   "text": "Titre d'une image"
 }

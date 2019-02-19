@@ -1,0 +1,1 @@
+Beige : Cette couleur a pour but de séparer les sections afin de mieux s’y retrouver et rendre le site plus esthétique : elle permet d’alterner les arrières-plans et de changer du classique blanc. Si vous changez cette couleur, choisissez une couleur pâle et discrète.

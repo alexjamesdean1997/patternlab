@@ -1,1 +1,1 @@
-alex
+Shout Bouton important et mis en avant avec son encadrement de couleur vive, ici le orange. Il est au niveau le plus important des boutons. Cet élément graphique nous cri « Clique !! Ceci est interessant !! Clique !! ).

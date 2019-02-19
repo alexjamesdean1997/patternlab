@@ -1,0 +1,16 @@
+{
+  "tag": "div",
+  "class": "presentateur",
+
+  "image": {
+    "tag": "img",
+    "src": "../../../images/masque.jpg",
+    "class": "classic-img"
+  },
+
+  "hthree": {
+    "tag": "h3",
+    "class": "",
+    "text": "Le Musée d’Aquitaine"
+  }
+}

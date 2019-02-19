@@ -1,0 +1,1 @@
+Enseignant : Encadrement avec un arrière-plan beige (différent de l’arrière-plan original du site qui est blanc). Cette différence d’arrière-plan sert de mise en avant pour qu’il puisse se faire remarquer. Il se compose d’un titre d’un paragraphe et surtout d’un Bouton de première importance « en savoir plus » bien visible avec sa couleur vive, la couleur dominante du thème.

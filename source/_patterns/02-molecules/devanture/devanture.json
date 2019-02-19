@@ -1,0 +1,16 @@
+{
+  "tag": "div",
+  "class": "devanture",
+
+  "hone": {
+    "tag": "h1",
+    "class": "",
+    "text": "JACK LONDON AU MUSEE D’AQUITAINE"
+  },
+
+  "font": {
+    "tag": "p",
+    "class": "",
+    "text": "25 août 2018 - 30 juillet 2019"
+  }
+}

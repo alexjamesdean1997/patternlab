@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1549901418137,
+  "timestamp": 1550587524937,
   "graph": {
     "options": {
       "directed": true,
@@ -29,9 +29,23 @@
         }
       },
       {
-        "v": "01-atoms/divider/divider.mustache",
+        "v": "01-atoms/color/color.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/color/color~secondary.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-atoms/divider/divider.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-journaliste-journaliste/02-molecules-journaliste-journaliste.rendered.html",
+          "lineagePattern": "molecules-journaliste"
         }
       },
       {
@@ -44,26 +58,8 @@
         "v": "01-atoms/font/font.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-molecules-enseignant-enseignant/02-molecules-enseignant-enseignant.rendered.html",
-          "lineagePattern": "molecules-enseignant"
-        }
-      },
-      {
-        "v": "01-atoms/font/font~h1.json",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "01-atoms/font/font~h2.json",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "01-atoms/font/font~h3.json",
-        "value": {
-          "compileState": "clean"
+          "lineagePath": "../../patterns/02-molecules-vendeur-vendeur/02-molecules-vendeur-vendeur.rendered.html",
+          "lineagePattern": "molecules-vendeur"
         }
       },
       {
@@ -73,7 +69,23 @@
         }
       },
       {
-        "v": "01-atoms/fontb/fontb.mustache",
+        "v": "01-atoms/hone/hone.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-devanture-devanture/02-molecules-devanture-devanture.rendered.html",
+          "lineagePattern": "molecules-devanture"
+        }
+      },
+      {
+        "v": "01-atoms/hthree/hthree.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-presentateur-presentateur/02-molecules-presentateur-presentateur.rendered.html",
+          "lineagePattern": "molecules-presentateur"
+        }
+      },
+      {
+        "v": "01-atoms/htwo/htwo.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -81,11 +93,43 @@
       {
         "v": "01-atoms/image/image.mustache",
         "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-vendeur-vendeur/02-molecules-vendeur-vendeur.rendered.html",
+          "lineagePattern": "molecules-vendeur"
+        }
+      },
+      {
+        "v": "02-molecules/devanture/devanture.mustache",
+        "value": {
           "compileState": "clean"
         }
       },
       {
         "v": "02-molecules/enseignant/enseignant.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-molecules/historien/historien.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-molecules/journaliste/journaliste.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-molecules/presentateur/presentateur.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-molecules/vendeur/vendeur.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -115,28 +159,33 @@
         "value": {}
       },
       {
+        "v": "01-atoms/color/color~secondary.json",
+        "w": "01-atoms/color/color.mustache",
+        "value": {}
+      },
+      {
         "v": "01-atoms/divider/divider~vertical.json",
         "w": "01-atoms/divider/divider.mustache",
         "value": {}
       },
       {
-        "v": "01-atoms/font/font~h1.json",
-        "w": "01-atoms/font/font.mustache",
-        "value": {}
-      },
-      {
-        "v": "01-atoms/font/font~h2.json",
-        "w": "01-atoms/font/font.mustache",
-        "value": {}
-      },
-      {
-        "v": "01-atoms/font/font~h3.json",
-        "w": "01-atoms/font/font.mustache",
-        "value": {}
-      },
-      {
         "v": "01-atoms/font/font~img.json",
         "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/devanture/devanture.mustache",
+        "w": "01-atoms/hone/hone.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/devanture/devanture.mustache",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/enseignant/enseignant.mustache",
+        "w": "01-atoms/hthree/hthree.mustache",
         "value": {}
       },
       {
@@ -147,6 +196,51 @@
       {
         "v": "02-molecules/enseignant/enseignant.mustache",
         "w": "01-atoms/buttons/buttons.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/historien/historien.mustache",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/historien/historien.mustache",
+        "w": "01-atoms/image/image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/journaliste/journaliste.mustache",
+        "w": "01-atoms/image/image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/journaliste/journaliste.mustache",
+        "w": "01-atoms/divider/divider.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/journaliste/journaliste.mustache",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/presentateur/presentateur.mustache",
+        "w": "01-atoms/image/image.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/presentateur/presentateur.mustache",
+        "w": "01-atoms/hthree/hthree.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/vendeur/vendeur.mustache",
+        "w": "01-atoms/font/font.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/vendeur/vendeur.mustache",
+        "w": "01-atoms/image/image.mustache",
         "value": {}
       }
     ]

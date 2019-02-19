@@ -1,0 +1,21 @@
+{
+  "tag": "div",
+  "class": "vendeur",
+
+  "image": {
+    "tag": "img",
+    "src": "../../../images/exposi7.jpg",
+    "class": "classic-img"
+  },
+
+  "font": {
+    "tag": "p",
+    "class": "center",
+    "text": " Ce bracelet n’est pas un 
+    simple bijou! C’est un bijou à parfumer avec
+    son propre parfum ou des 
+    huiles essentielles, qui le 
+    rediffuse plus intensément et
+    plus longtemps! "
+  }
+}

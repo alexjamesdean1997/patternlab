@@ -1,0 +1,1 @@
+Vendeur Dans la partie boutique, cette molécule sert à présenter un produit à vendre. Il lie une image écorce d’orange et des paragraphes. Il est possible de mettre certain mots en gras pour les faire ressortir.

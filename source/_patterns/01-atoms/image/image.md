@@ -1,0 +1,1 @@
+Image « écorce d’orange » : Ce sont les images qui illustrent et apportent du contenu supplémentaire et apporte plus d’éléments visuels. Elles s’appellent « écorce d’orange » pour se rappeler de les encadrer d’un liseré orange (notre couleur vive dominante) : cela apporte une touche graphique et un rappel de couleur avec le reste de la page.

@@ -1,4 +1,4 @@
 {
   "tag": "div",
-  "divider-class": "divider-h"
+  "class": "divider-h"
 }

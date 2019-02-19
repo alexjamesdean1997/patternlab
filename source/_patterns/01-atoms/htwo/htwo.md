@@ -1,0 +1,1 @@
+H2 : C’est le second niveau d’importance de titre. Il s’agit, sur la page d’accueil, des titres qui correspondent aux différentes pages présentes sur la barre de navigation. La taille de sa police est de 40pt.

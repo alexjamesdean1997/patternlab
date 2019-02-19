@@ -1,0 +1,1 @@
+Ocean : Ocean est utilisé pour ajouter plus de visuel au site. En plus d’ajouter une touche de couleur, il aide à scinder les titres des paragraphes. Il aide aussi à souligner les titres des pages dans la barre de navigation pour savoir où on se situ dans l’arborescence du site internet. Ce divider a la couleur dominante du thème.

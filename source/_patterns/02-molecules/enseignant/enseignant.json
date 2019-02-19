@@ -2,14 +2,18 @@
   "tag": "div",
   "class": "bloc-cta",
 
-  "fonth3": {
+  "hthree": {
     "tag": "h3",
-    "text": "Un patrimoine multicultuel"
+    "text": "Un patrimoine multiculturel"
   },
 
   "font": {
     "tag": "p",
-    "text": "test paragraph"
+    "class": "center",
+    "text": "Les acquisitions du musée compose aujourd’hui une vaste 
+    collection d'objet qui font partie de l’histoire. Venez découvrir 
+    la richesse et la diversité de notre collection apprécié 
+    de tout visiteur amateur d’histoire."
   },
 
   "buttons": {

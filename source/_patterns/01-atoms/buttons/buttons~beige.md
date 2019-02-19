@@ -1,0 +1,1 @@
+Bouton de lien dans la barre de navigation, Murmur signifie qu’on nous suggère de cliquer « Clique si tu veux, on te le conseil mais on ne t’oblige pas :) ». Murmur peut aussi être utilisé pour d’autres boutons dans le site, des boutons moins criard que Shout.

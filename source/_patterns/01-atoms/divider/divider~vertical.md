@@ -1,0 +1,1 @@
+Mountain : Mountain est utilisé pour séparer des sections à la verticale : par exemple quand plusieurs contenu sont alignés mais qu’ils ne se lisent pas ensemble et à la suite, on peut utiliser Mountain pour que visuellement les éléments soient séparés même si ils sont alignés. Ce divider a la couleur dominante du thème.

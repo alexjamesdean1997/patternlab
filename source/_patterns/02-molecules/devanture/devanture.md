@@ -1,0 +1,1 @@
+Devanture : La devanture est le premier élément qu’on voit en arrivant sur la page d’accueil du site. Il est composé du slider d’image, d’un gros titre H1, des Arrow et des bullets pour faire défiler les slides.

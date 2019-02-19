@@ -1,0 +1,1 @@
+Journalistes : Sert à la partie actualité de la page d’accueil. Il se compose d’un titre h3 (la plus basse importance dans les niveau de titres), un paragraphe, une image pour illustrer mais aussi un divider mountain pour séparer les différentes actualités les unes des autres.

@@ -1,0 +1,21 @@
+{
+  "tag": "div",
+  "class": "journaliste",
+
+  "image": {
+    "tag": "img",
+    "src": "../../../images/exposi7.jpg",
+    "class": "classic-img"
+  },
+
+  "font": {
+    "tag": "p",
+    "class": "center",
+    "text": "Pendant une année, l’artiste est partie à la rencontre de personnes migrantes installées dans l’agglomération bordelaise."
+  },
+
+  "divider": {
+    "tag": "div",
+    "class": "divider-v"
+  }
+}

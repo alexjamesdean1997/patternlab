@@ -1,0 +1,1 @@
+H1 : Premier niveau d’importance des titres. Il correspond au titre du slider qui se trouve sur la page d’accueil du site internet. C’est le premier titre que l’on voit et celui qui interpelle le plus. La taille de sa police est de 45pt.
